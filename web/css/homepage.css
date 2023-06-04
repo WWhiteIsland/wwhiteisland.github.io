@@ -1,0 +1,40 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    margin: 0;
+    background-image: url(../images/background_1.jpg);/*为了大体美观放个背景图比较好*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3vw;
+    color: wheat;
+    border-color: aqua;
+    text-align: center;
+    padding: auto;
+    margin: 5vw;/*大标题的字体加粗颜色设置*/
+}
+
+.nav{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav a:link{ 
+    font-weight: bold; 
+    color: rgb(234, 130, 26); 
+    font-size: 4vw; 
+    text-decoration: none; /*a标签链接名设置，设置成按钮样式也许会好看点吧*/
+}
+
